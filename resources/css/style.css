@@ -30,3 +30,44 @@
 .header a {
   color: black;
 }
+
+/* Main Content */
+.main-content {
+  border: 1px solid black;
+  position: relative;
+  top: 20px;
+  display: flex;
+  width: 100%;
+  padding: 15px;
+}
+
+.left-col {
+  border: 1px solid black;
+  width: 630px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.left-col p, h2 {
+  width: 100%;
+}
+
+.borders {
+  border-bottom: 1px solid black;
+}
+
+.mid-col {
+  border: 1px solid black;
+  width: 300px;
+  display: inline-flex;
+}
+
+.right-col {
+  border: 1px solid black;
+  width: 240px;
+  display: inline-flex;
+}
+
+.borders {
+  border: 1px solid black;
+}
