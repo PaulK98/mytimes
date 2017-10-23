@@ -11,7 +11,6 @@
   width: 100%;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid black;
 }
 
 #title-menu {
@@ -37,8 +36,8 @@
   position: relative;
   top: 20px;
   display: flex;
+  justify-content: space-between;
   width: 100%;
-  padding: 15px;
 }
 
 .left-col {
@@ -60,14 +59,22 @@
   border: 1px solid black;
   width: 300px;
   display: inline-flex;
+  flex-direction: column;
 }
 
 .right-col {
   border: 1px solid black;
   width: 240px;
   display: inline-flex;
+  flex-direction: column;
 }
 
 .borders {
   border: 1px solid black;
+}
+
+/* Background Photos */
+
+#main-pic {
+  background: "/resources/img/img-story-1.png"
 }
