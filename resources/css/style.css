@@ -1,0 +1,32 @@
+/* Universal Properties */
+
+
+
+/* Header */
+.header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+#title-menu {
+  display: inline-flex;
+}
+
+.header p {
+  color: MediumAquamarine;
+  margin: auto 0;
+}
+
+.header nav span {
+  display: inline-block;
+}
+
+.header a {
+  color: black;
+}
