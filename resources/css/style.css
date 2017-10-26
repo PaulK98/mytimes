@@ -11,6 +11,8 @@
   width: 100%;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
 }
 
 #title-menu {
@@ -26,7 +28,7 @@
   display: inline-block;
 }
 
-.header a {
+.header a , footer a {
   color: black;
 }
 
@@ -37,6 +39,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  margin: 0 auto 78px auto;
 }
 
 .left-col {
@@ -82,12 +85,14 @@
 .main-story {
   background-image: url('../img/img-story-main.png');
   height: 300px;
-  margin-top: 0;
   font-size: 40px;
   text-align: left;
   font-family: Georgia;
   font-weight: bold;
   color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .image-content {
@@ -139,4 +144,38 @@
   font-family: Verdana;
   font-size: 12px;
   color: DimGray;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.info, .copyright {
+  display: block;
+}
+
+.info {
+  align-content: space-around;
+}
+
+.info nav, info span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+#mytimes-info {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
 }
