@@ -32,7 +32,6 @@
 
 /* Main Content */
 .main-content {
-  border: 1px solid black;
   position: relative;
   top: 20px;
   display: flex;
@@ -41,7 +40,6 @@
 }
 
 .left-col {
-  border: 1px solid black;
   width: 630px;
   display: inline-flex;
   flex-direction: column;
@@ -56,21 +54,15 @@
 }
 
 .mid-col {
-  border: 1px solid black;
   width: 300px;
   display: inline-flex;
   flex-direction: column;
 }
 
 .right-col {
-  border: 1px solid black;
   width: 240px;
   display: inline-flex;
   flex-direction: column;
-}
-
-.borders {
-  border: 1px solid black;
 }
 
 /* Background Photos */
