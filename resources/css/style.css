@@ -45,6 +45,22 @@
   flex-direction: column;
 }
 
+.left-half {
+  display: inline-flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.right-half {
+  display: inline-flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+#horizontal {
+
+}
+
 .left-col p, h2 {
   width: 100%;
 }
@@ -65,7 +81,7 @@
   flex-direction: column;
 }
 
-/* Background Photos */
+/* Background Photos and story-details */
 
 .main-story {
   background-image: url('../img/img-story-main.png');
@@ -111,3 +127,5 @@
   margin-top: 0;
   text-align: center;
 }
+
+/* News style */
