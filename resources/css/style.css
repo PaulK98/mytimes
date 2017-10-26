@@ -75,6 +75,47 @@
 
 /* Background Photos */
 
-#main-pic {
-  background: "/resources/img/img-story-1.png"
+.main-story {
+  background-image: url('../img/img-story-main.png');
+  height: 300px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+}
+
+.image-content {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.story-details {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+#main-story-2 {
+  background-image: url('../img/img-story-2.png');
+  height: 300px;
+  margin-top: 0;
+  text-align: center;
+}
+
+#main-story-3 {
+  background-image: url('../img/img-story-3.png');
+  height: 300px;
+  margin-top: 0;
+  text-align: center;
+}
+
+#main-story-4 {
+  background-image: url('../img/img-story-1.png');
+  height: 300px;
+  margin-top: 0;
+  text-align: center;
 }
